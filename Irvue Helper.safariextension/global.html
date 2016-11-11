@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<title>Irvue Helper</title>	
+<script>
+	safari.application.addEventListener("command", performCommand, false);
+	function performCommand(event) {
+	    if (event.command == "addChannels") {
+		    var currentURL = safari.application.activeBrowserWindow.activeTab.url;
+		    if (currentURL == undefined) {
+		    	return;
+		    }
+		    var irvueURL = "irvue://add_channel?target="+encodeURIComponent(currentURL);
+		  	var newTab = safari.application.activeBrowserWindow.openTab();
+	        newTab.url = (irvueURL);
+	    }
+	}
+</script>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Igor Savelev</string>
+	<key>Builder Version</key>
+	<string>12602.2.14.0.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>Irvue Helper</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.leonspok.safari.IrvueHelper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1000</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<integer>0</integer>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>addChannels</string>
+				<key>Identifier</key>
+				<string>add_channels</string>
+				<key>Image</key>
+				<string>icon_16.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Add Channels</string>
+				<key>Palette Label</key>
+				<string>Add Channels</string>
+				<key>Tool Tip</key>
+				<string>Add Channels from this page</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Extension which allows to add channels to Irvue from Unsplash</string>
+	<key>DeveloperIdentifier</key>
+	<string>6KXZX3AW22</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>unsplash.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://irvue.tumblr.com</string>
+</dict>
+</plist>
